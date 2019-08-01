@@ -1,0 +1,9 @@
+release/*
+simple/*
+*.csv
+*.txt
+*.json
+*.log
+.DS_Store
+.idea
+*.tar.gz

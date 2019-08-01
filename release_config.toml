@@ -1,0 +1,20 @@
+[FtpSender]
+watchDir="/opt/Tomcat6.0_5050/sto,/opt/Tomcat6.0_5060/sto,/opt/Tomcat6.0_5070/sto,/opt/Tomcat6.0_5080/sto,/opt/Tomcat6.0_5090/sto"
+rocketMQNameserver="10.11.2.4:9876;10.11.2.5:9876"
+sendTopic="op"
+sendGroup="pgopsto" #deppon 德邦 pj 品骏  申通 sto
+
+
+
+[FtpSender]
+watchDir="/home/data/http_file/deppon"
+rocketMQNameserver="10.11.2.4:9876;10.11.2.5:9876"
+sendTopic="op"
+sendGroup="pgopdeppon" #deppon 德邦 pj 品骏  申通 sto
+
+
+[FtpSender]
+watchDir="/home/data/http_file/workdir"
+rocketMQNameserver="10.11.2.4:9876;10.11.2.5:9876"
+sendTopic="op"
+sendGroup="pgoppj" #deppon 德邦 pj 品骏  申通 sto
